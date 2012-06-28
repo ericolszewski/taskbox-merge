@@ -14,6 +14,7 @@
 
 - (id)init
 {
+    NSLog(@"Tim Iverson");
     return self;
 }
 

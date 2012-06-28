@@ -1889,6 +1889,7 @@
 				07865D0C159CD5A30086E091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8467D7ED157EECD100C080A4 /* Build configuration list for PBXProject "MailFlow" */ = {
 			isa = XCConfigurationList;
