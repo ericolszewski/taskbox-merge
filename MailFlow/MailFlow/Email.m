@@ -14,7 +14,11 @@
 
 - (id)init
 {
+<<<<<<< HEAD
     NSLog(@"Tim Iverson");
+=======
+    NSLog(@"Code warrior");
+>>>>>>> Eric
     return self;
 }
 
