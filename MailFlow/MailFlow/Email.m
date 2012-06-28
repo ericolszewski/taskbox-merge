@@ -14,6 +14,7 @@
 
 - (id)init
 {
+    NSLog(@"Code warrior");
     return self;
 }
 
