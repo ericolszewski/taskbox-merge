@@ -20,6 +20,7 @@
 
 - (NSString *)getDateString:(NSDate *)date
 {
+    NSLog(@"Test again");
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat:@"MM/dd/yyyy"];
     
