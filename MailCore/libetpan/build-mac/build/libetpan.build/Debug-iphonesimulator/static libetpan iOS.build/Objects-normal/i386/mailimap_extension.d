@@ -1,0 +1,28 @@
+dependencies: \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/../src/low-level/imap/mailimap_extension.c \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/include/config.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/../src/low-level/imap/mailimap_extension.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/include/libetpan/mailimap_types.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/include/libetpan/libetpan-config.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/include/libetpan/mailstream.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/include/libetpan/mailstream_low.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/include/libetpan/mailstream_types.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/include/libetpan/mailstream_helper.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/include/libetpan/mmapstring.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/include/libetpan/mailstream_socket.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/include/libetpan/mailstream_ssl.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/include/libetpan/clist.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/include/libetpan/mailimap_extension_types.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/../src/data-types/clist.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/../src/low-level/imap/annotatemore.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/include/libetpan/mailimap_extension.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/include/libetpan/annotatemore_types.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/../src/low-level/imap/acl.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/include/libetpan/acl_types.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/../src/low-level/imap/uidplus.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/include/libetpan/uidplus_types.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/../src/low-level/imap/quota.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/build/Debug-iphonesimulator/include/libetpan/quota_types.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/../src/low-level/imap/namespace.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/build/Debug-iphonesimulator/include/libetpan/namespace_types.h \
+  /Volumes/MEDIAONE/Documents/Projects/iOS/mailcore/libetpan/build-mac/../src/low-level/imap/xlist.h

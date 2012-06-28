@@ -1,0 +1,1017 @@
+TMailFlow
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/Info.plist MailFlow/MailFlow-Info.plist
+cProcessPCH /var/folders/w4/ml2nf8x51b39jlfj987mhhm80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MailFlow-Prefix-eodaxxppvamgtkdkguicrtxuicft/MailFlow-Prefix.pch.pth MailFlow/MailFlow-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/main.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/AppDelegate.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/EmailTableController.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/EmailTableController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/EmailCell.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/EmailCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/LoginViewController.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/Email.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/Email.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateButton.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateButton.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/NavigationViewController.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/NavigationViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/DetailViewController.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateTableView.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateTableView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateViewController.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/SettingsViewController.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/SettingsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/MailFlow normal i386
+cGenerateDSYMFile /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app.dSYM /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/MailFlow
+cCompileStoryboard /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/en.lproj/MainStoryboard.storyboard
+cCopyStringsFile /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/en.lproj/InfoPlist.strings MailFlow/en.lproj/InfoPlist.strings
+cCpResource MailFlow/images/app-icon.png build/Debug-iphonesimulator/MailFlow.app/app-icon.png
+cCpResource MailFlow/images/app-icon@2x.png build/Debug-iphonesimulator/MailFlow.app/app-icon@2x.png
+cCpResource MailFlow/images/avatar_default.png build/Debug-iphonesimulator/MailFlow.app/avatar_default.png
+cCpResource MailFlow/images/Default.png build/Debug-iphonesimulator/MailFlow.app/Default.png
+cCpResource MailFlow/images/Default@2x.png build/Debug-iphonesimulator/MailFlow.app/Default@2x.png
+cCpResource MailFlow/images/gradient_bg.png build/Debug-iphonesimulator/MailFlow.app/gradient_bg.png
+cCpResource MailFlow/images/gradient_bg@2x.png build/Debug-iphonesimulator/MailFlow.app/gradient_bg@2x.png
+cCpResource MailFlow/images/logo.png build/Debug-iphonesimulator/MailFlow.app/logo.png
+cCpResource MailFlow/images/logo@2x.png build/Debug-iphonesimulator/MailFlow.app/logo@2x.png
+cCpResource MailFlow/images/bg_detailCell.png build/Debug-iphonesimulator/MailFlow.app/bg_detailCell.png
+cCpResource MailFlow/images/icon_5star@2x.png build/Debug-iphonesimulator/MailFlow.app/icon_5star@2x.png
+cCpResource MailFlow/images/icon_assignees@2x.png build/Debug-iphonesimulator/MailFlow.app/icon_assignees@2x.png
+cCpResource MailFlow/images/icon_cal@2x.png build/Debug-iphonesimulator/MailFlow.app/icon_cal@2x.png
+cCpResource MailFlow/images/icon_tags@2x.png build/Debug-iphonesimulator/MailFlow.app/icon_tags@2x.png
+cCpResource MailFlow/images/bg_PosCell.png build/Debug-iphonesimulator/MailFlow.app/bg_PosCell.png
+cCpResource MailFlow/images/bg_PosCell@2x.png build/Debug-iphonesimulator/MailFlow.app/bg_PosCell@2x.png
+cCpResource MailFlow/images/bg_NegCell.png build/Debug-iphonesimulator/MailFlow.app/bg_NegCell.png
+cCpResource MailFlow/images/bg_NegCell@2x.png build/Debug-iphonesimulator/MailFlow.app/bg_NegCell@2x.png
+cCpResource MailFlow/images/bg_PosBtn.png build/Debug-iphonesimulator/MailFlow.app/bg_PosBtn.png
+cCpResource MailFlow/images/bg_PosBtn@2x.png build/Debug-iphonesimulator/MailFlow.app/bg_PosBtn@2x.png
+cCpResource MailFlow/images/bg_DetailCell.png build/Debug-iphonesimulator/MailFlow.app/bg_DetailCell.png
+cCpResource MailFlow/images/bg_DetailCell@2x.png build/Debug-iphonesimulator/MailFlow.app/bg_DetailCell@2x.png
+cCpResource MailFlow/images/icon_li@2x.png build/Debug-iphonesimulator/MailFlow.app/icon_li@2x.png
+cCpResource MailFlow/images/icon_li.png build/Debug-iphonesimulator/MailFlow.app/icon_li.png
+cCpResource MailFlow/images/icon_settings.png build/Debug-iphonesimulator/MailFlow.app/icon_settings.png
+cCpResource MailFlow/images/icon_settings@2x.png build/Debug-iphonesimulator/MailFlow.app/icon_settings@2x.png
+cCopyPlistFile /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/states.plist MailFlow/states.plist
+cCpResource MailFlow/images/bg_NegBtn.png build/Debug-iphonesimulator/MailFlow.app/bg_NegBtn.png
+cCpResource MailFlow/images/bg_NegBtn@2x.png build/Debug-iphonesimulator/MailFlow.app/bg_NegBtn@2x.png
+cTouch /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+c000000004F453DF80000000000000110
+t1329937912
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004FC52BBD0000000000244490
+t1338321853
+s2376848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004FC52BBF0000000000353830
+t1338321855
+s3487792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004FC52BC40000000000905E40
+t1338321860
+s9461312
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/AppDelegate.m
+c000000004FD1FFD600000000000007F8
+t1339162582
+s2040
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/DetailViewController.m
+c000000004FD1FFD60000000000000336
+t1339162582
+s822
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/Email.m
+c000000004FD1FFD60000000000000120
+t1339162582
+s288
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/EmailCell.m
+c000000004FD1FFD60000000000002A39
+t1339162582
+s10809
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/EmailTableController.m
+c000000004FD1FFD60000000000001E65
+t1339162582
+s7781
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/LoginViewController.m
+c000000004FD1FFD60000000000000540
+t1339162582
+s1344
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/MailFlow-Prefix.pch
+c000000004FD1FFD6000000000000013F
+t1339162582
+s319
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/NavigationViewController.m
+c000000004FD1FFD600000000000003B4
+t1339162582
+s948
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/SettingsViewController.m
+c000000004FD1FFD6000000000000059B
+t1339162582
+s1435
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateButton.m
+c000000004FD1FFD60000000000000546
+t1339162582
+s1350
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateTableView.m
+c000000004FD1FFD6000000000000014D
+t1339162582
+s333
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateViewController.m
+c000000004FD1FFD6000000000000095F
+t1339162582
+s2399
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/en.lproj/InfoPlist.strings
+c000000004FD1FFD6000000000000002D
+t1339162582
+s45
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/en.lproj/MainStoryboard.storyboard
+c000000004FD1FFD60000000000007C0E
+t1339162582
+s31758
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/Default.png
+c000000004FD1FFD6000000000000E050
+t1339162582
+s57424
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/Default@2x.png
+c000000004FD1FFD6000000000003C238
+t1339162582
+s246328
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/app-icon.png
+c000000004FD1FFD600000000000010B7
+t1339162582
+s4279
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/app-icon@2x.png
+c000000004FD1FFD600000000000024F5
+t1339162582
+s9461
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/avatar_default.png
+c000000004FD1FFD60000000000000AB1
+t1339162582
+s2737
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_DetailCell.png
+c000000004FD1FFD600000000000003BE
+t1339162582
+s958
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_DetailCell@2x.png
+c000000004FD1FFD600000000000003BA
+t1339162582
+s954
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_NegBtn.png
+c000000004FD1FFD600000000000003B7
+t1339162582
+s951
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_NegBtn@2x.png
+c000000004FD1FFD600000000000003B4
+t1339162582
+s948
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_NegCell.png
+c000000004FD1FFD600000000000005D0
+t1339162582
+s1488
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_NegCell@2x.png
+c000000004FD1FFD6000000000000085A
+t1339162582
+s2138
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_PosBtn.png
+c000000004FD1FFD600000000000003B8
+t1339162582
+s952
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_PosBtn@2x.png
+c000000004FD1FFD600000000000003B3
+t1339162582
+s947
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_PosCell.png
+c000000004FD1FFD6000000000000060D
+t1339162582
+s1549
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_PosCell@2x.png
+c000000004FD1FFD6000000000000082C
+t1339162582
+s2092
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_detailCell.png
+c000000004FD1FFD600000000000003BE
+t1339162582
+s958
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/gradient_bg.png
+c000000004FD1FFD6000000000000C7A9
+t1339162582
+s51113
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/gradient_bg@2x.png
+c000000004FD1FFD6000000000003AEAE
+t1339162582
+s241326
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/icon_5star@2x.png
+c000000004FD1FFD60000000000000C54
+t1339162582
+s3156
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/icon_assignees@2x.png
+c000000004FD1FFD60000000000000D21
+t1339162582
+s3361
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/icon_cal@2x.png
+c000000004FD1FFD60000000000000B20
+t1339162582
+s2848
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/icon_li.png
+c000000004FD1FFD60000000000000478
+t1339162582
+s1144
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/icon_li@2x.png
+c000000004FD1FFD6000000000000055A
+t1339162582
+s1370
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/icon_settings.png
+c000000004FD1FFD600000000000004B9
+t1339162582
+s1209
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/icon_settings@2x.png
+c000000004FD1FFD6000000000000061F
+t1339162582
+s1567
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/icon_tags@2x.png
+c000000004FD1FFD60000000000000BB6
+t1339162582
+s2998
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/logo.png
+c000000004FD1FFD600000000000013D7
+t1339162582
+s5079
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/logo@2x.png
+c000000004FD1FFD60000000000002398
+t1339162582
+s9112
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/main.m
+c000000004FD1FFD60000000000000150
+t1339162582
+s336
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/states.plist
+c000000004FD1FFD60000000000000234
+t1339162582
+s564
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app.dSYM
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/Default.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/Default@2x.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/Info.plist
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/MailFlow
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/PkgInfo
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/app-icon.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/app-icon@2x.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/avatar_default.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_DetailCell.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_DetailCell@2x.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_NegBtn.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_NegBtn@2x.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_NegCell.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_NegCell@2x.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_PosBtn.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_PosBtn@2x.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_PosCell.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_PosCell@2x.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_detailCell.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/en.lproj/MainStoryboard.storyboardc
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/gradient_bg.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/gradient_bg@2x.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/icon_5star@2x.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/icon_assignees@2x.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/icon_cal@2x.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/icon_li.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/icon_li@2x.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/icon_settings.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/icon_settings@2x.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/icon_tags@2x.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/logo.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/logo@2x.png
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/states.plist
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/DetailViewController.o
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/Email.o
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/EmailCell.o
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/EmailTableController.o
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/LoginViewController.o
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/MailFlow.LinkFileList
+c000000004FD222C300000000000006FA
+t1339171523
+s1786
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/NavigationViewController.o
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/SettingsViewController.o
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateButton.o
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateTableView.o
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateViewController.o
+t2
+s0
+
+N/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/var/folders/w4/ml2nf8x51b39jlfj987mhhm80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MailFlow-Prefix-eodaxxppvamgtkdkguicrtxuicft/MailFlow-Prefix.pch.pth
+t1339171340
+s4029108
+
+NMailFlow/MailFlow-Info.plist
+c000000004FD1FFD600000000000005B2
+t1339162582
+s1458
+
+CBuild AST from /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/AppDelegate.m
+r0
+
+CBuild AST from /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/DetailViewController.m
+r0
+
+CBuild AST from /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/Email.m
+r0
+
+CBuild AST from /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/EmailCell.m
+r0
+
+CBuild AST from /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/EmailTableController.m
+r0
+
+CBuild AST from /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/LoginViewController.m
+r0
+
+CBuild AST from /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/NavigationViewController.m
+r0
+
+CBuild AST from /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/SettingsViewController.m
+r0
+
+CBuild AST from /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateButton.m
+r0
+
+CBuild AST from /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateTableView.m
+r0
+
+CBuild AST from /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateViewController.m
+r0
+
+CBuild AST from /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies89b312435a82b541^04c890435a82b541^---0#1#0#--18"Check dependencies36"3CDA0ABF-830E-41D5-BC1F-0332BD5992FC-
+
+CCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/AppDelegate.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360864323.622454
+e360864324.962516
+r1
+xCompileC
+xbuild/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/AppDelegate.o
+x/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/AppDelegate.mee789f435a82b541^2b68f6445a82b541^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/AppDelegate.m0000000000000000^3534"CompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/AppDelegate.o MailFlow/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-generated-files.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-own-target-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-all-target-headers.hmap -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-project-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/include -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources/i386 -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/../../remail/MailCore/build/Debug -include /var/folders/w4/ml2nf8x51b39jlfj987mhhm80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MailFlow-Prefix-eodaxxppvamgtkdkguicrtxuicft/MailFlow-Prefix.pch -MMD -MT dependencies -MF /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/AppDelegate.dia -c /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/AppDelegate.m -o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/AppDelegate.o36"D626E284-4A69-4664-B87D-3353DF67E45C-
+
+CCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/DetailViewController.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360864325.022516
+e360864325.138276
+r1
+xCompileC
+xbuild/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/DetailViewController.o
+x/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/DetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/DetailViewController.mabea05455a82b541^996523455a82b541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/DetailViewController.m0000000000000000^3588"CompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/DetailViewController.o MailFlow/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-generated-files.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-own-target-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-all-target-headers.hmap -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-project-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/include -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources/i386 -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/../../remail/MailCore/build/Debug -include /var/folders/w4/ml2nf8x51b39jlfj987mhhm80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MailFlow-Prefix-eodaxxppvamgtkdkguicrtxuicft/MailFlow-Prefix.pch -MMD -MT dependencies -MF /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/DetailViewController.d --serialize-diagnostics /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/DetailViewController.dia -c /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/DetailViewController.m -o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/DetailViewController.o36"9CF23E97-0DE9-4E17-94AC-99617BCAB943-
+
+CCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/Email.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/Email.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360864324.963747
+e360864325.020871
+r1
+xCompileC
+xbuild/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/Email.o
+x/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/Email.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/Email.m41d7f6445a82b541^be6605455a82b541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/Email.m0000000000000000^3498"CompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/Email.o MailFlow/Email.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-generated-files.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-own-target-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-all-target-headers.hmap -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-project-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/include -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources/i386 -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/../../remail/MailCore/build/Debug -include /var/folders/w4/ml2nf8x51b39jlfj987mhhm80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MailFlow-Prefix-eodaxxppvamgtkdkguicrtxuicft/MailFlow-Prefix.pch -MMD -MT dependencies -MF /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/Email.d --serialize-diagnostics /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/Email.dia -c /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/Email.m -o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/Email.o36"0F1A7B9A-00AC-4D1A-8E1A-3C6F424FD49E-
+
+CCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/EmailCell.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/EmailCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360864323.622509
+e360864324.963703
+r1
+xCompileC
+xbuild/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/EmailCell.o
+x/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/EmailCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/EmailCell.mbe879f435a82b541^1fbcf6445a82b541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/EmailCell.m0000000000000000^3522"CompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/EmailCell.o MailFlow/EmailCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-generated-files.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-own-target-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-all-target-headers.hmap -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-project-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/include -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources/i386 -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/../../remail/MailCore/build/Debug -include /var/folders/w4/ml2nf8x51b39jlfj987mhhm80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MailFlow-Prefix-eodaxxppvamgtkdkguicrtxuicft/MailFlow-Prefix.pch -MMD -MT dependencies -MF /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/EmailCell.d --serialize-diagnostics /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/EmailCell.dia -c /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/EmailCell.m -o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/EmailCell.o36"C402F1E0-A9E7-4C22-B686-A3AE5A584C5C-
+
+CCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/EmailTableController.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/EmailTableController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360864323.622486
+e360864324.962950
+r1
+xCompileC
+xbuild/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/EmailTableController.o
+x/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/EmailTableController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/EmailTableController.mb37e9f435a82b541^6f83f6445a82b541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/EmailTableController.m0000000000000000^3588"CompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/EmailTableController.o MailFlow/EmailTableController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-generated-files.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-own-target-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-all-target-headers.hmap -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-project-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/include -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources/i386 -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/../../remail/MailCore/build/Debug -include /var/folders/w4/ml2nf8x51b39jlfj987mhhm80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MailFlow-Prefix-eodaxxppvamgtkdkguicrtxuicft/MailFlow-Prefix.pch -MMD -MT dependencies -MF /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/EmailTableController.d --serialize-diagnostics /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/EmailTableController.dia -c /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/EmailTableController.m -o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/EmailTableController.o36"DABA56FE-A6F7-438C-9C96-0CD512A23E01-
+
+CCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/LoginViewController.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360864324.683583
+e360864325.076474
+r1
+xCompileC
+xbuild/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/LoginViewController.o
+x/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/LoginViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/LoginViewController.m4817af445a82b541^59a213455a82b541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/LoginViewController.m0000000000000000^3582"CompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/LoginViewController.o MailFlow/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-generated-files.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-own-target-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-all-target-headers.hmap -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-project-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/include -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources/i386 -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/../../remail/MailCore/build/Debug -include /var/folders/w4/ml2nf8x51b39jlfj987mhhm80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MailFlow-Prefix-eodaxxppvamgtkdkguicrtxuicft/MailFlow-Prefix.pch -MMD -MT dependencies -MF /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/LoginViewController.d --serialize-diagnostics /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/LoginViewController.dia -c /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/LoginViewController.m -o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/LoginViewController.o36"F4F44E00-CA2C-4FBE-B8A9-C499785FAD51-
+
+CCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/NavigationViewController.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/NavigationViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360864324.964869
+e360864325.096384
+r1
+xCompileC
+xbuild/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/NavigationViewController.o
+x/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/NavigationViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/NavigationViewController.m1617f7445a82b541^67b918455a82b541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/NavigationViewController.m0000000000000000^3612"CompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/NavigationViewController.o MailFlow/NavigationViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-generated-files.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-own-target-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-all-target-headers.hmap -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-project-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/include -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources/i386 -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/../../remail/MailCore/build/Debug -include /var/folders/w4/ml2nf8x51b39jlfj987mhhm80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MailFlow-Prefix-eodaxxppvamgtkdkguicrtxuicft/MailFlow-Prefix.pch -MMD -MT dependencies -MF /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/NavigationViewController.d --serialize-diagnostics /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/NavigationViewController.dia -c /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/NavigationViewController.m -o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/NavigationViewController.o36"8B0B8A4E-77A1-4FF4-85D0-C8139B5AB656-
+
+CCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/SettingsViewController.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/SettingsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360864325.097623
+e360864325.169912
+r1
+xCompileC
+xbuild/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/SettingsViewController.o
+x/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/SettingsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/SettingsViewController.mb41f19455a82b541^e57e2b455a82b541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/SettingsViewController.m0000000000000000^3600"CompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/SettingsViewController.o MailFlow/SettingsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-generated-files.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-own-target-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-all-target-headers.hmap -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-project-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/include -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources/i386 -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/../../remail/MailCore/build/Debug -include /var/folders/w4/ml2nf8x51b39jlfj987mhhm80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MailFlow-Prefix-eodaxxppvamgtkdkguicrtxuicft/MailFlow-Prefix.pch -MMD -MT dependencies -MF /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/SettingsViewController.d --serialize-diagnostics /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/SettingsViewController.dia -c /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/SettingsViewController.m -o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/SettingsViewController.o36"BD027CCA-0606-4900-ACED-43F1BE632663-
+
+CCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateButton.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateButton.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360864324.963774
+e360864325.089428
+r1
+xCompileC
+xbuild/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateButton.o
+x/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateButton.m12daf6445a82b541^7ee416455a82b541^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateButton.m0000000000000000^3534"CompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateButton.o MailFlow/StateButton.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-generated-files.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-own-target-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-all-target-headers.hmap -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-project-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/include -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources/i386 -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/../../remail/MailCore/build/Debug -include /var/folders/w4/ml2nf8x51b39jlfj987mhhm80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MailFlow-Prefix-eodaxxppvamgtkdkguicrtxuicft/MailFlow-Prefix.pch -MMD -MT dependencies -MF /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateButton.d --serialize-diagnostics /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateButton.dia -c /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateButton.m -o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateButton.o36"DC4B5FEB-A6EA-431B-A7D6-0296B41CDC7C-
+
+CCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateTableView.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateTableView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360864325.077753
+e360864325.168776
+r1
+xCompileC
+xbuild/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateTableView.o
+x/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateTableView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateTableView.m130b14455a82b541^c6342b455a82b541^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateTableView.m0000000000000000^3552"CompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateTableView.o MailFlow/StateTableView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-generated-files.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-own-target-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-all-target-headers.hmap -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-project-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/include -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources/i386 -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/../../remail/MailCore/build/Debug -include /var/folders/w4/ml2nf8x51b39jlfj987mhhm80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MailFlow-Prefix-eodaxxppvamgtkdkguicrtxuicft/MailFlow-Prefix.pch -MMD -MT dependencies -MF /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateTableView.d --serialize-diagnostics /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateTableView.dia -c /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateTableView.m -o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateTableView.o36"F070AD65-7D00-4E47-9EEC-823B648C1728-
+
+CCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateViewController.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360864325.090723
+e360864325.179731
+r1
+xCompileC
+xbuild/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateViewController.o
+x/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateViewController.m205e17455a82b541^21022e455a82b541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateViewController.m0000000000000000^3582"CompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateViewController.o MailFlow/StateViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-generated-files.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-own-target-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-all-target-headers.hmap -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-project-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/include -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources/i386 -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/../../remail/MailCore/build/Debug -include /var/folders/w4/ml2nf8x51b39jlfj987mhhm80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MailFlow-Prefix-eodaxxppvamgtkdkguicrtxuicft/MailFlow-Prefix.pch -MMD -MT dependencies -MF /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateViewController.d --serialize-diagnostics /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateViewController.dia -c /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/StateViewController.m -o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/StateViewController.o36"E2CFF329-3AF8-42C0-A4B8-EEEF73159DBF-
+
+CCompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/main.o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360864323.621885
+e360864324.682418
+r1
+xCompileC
+xbuild/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/main.o
+x/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/main.mc24c9f435a82b541^4ab2ae445a82b541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/main.m0000000000000000^3492"CompileC build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/main.o MailFlow/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-generated-files.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-own-target-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-all-target-headers.hmap -iquote /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/MailFlow-project-headers.hmap -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/include -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources/i386 -I/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/DerivedSources -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/../../remail/MailCore/build/Debug -include /var/folders/w4/ml2nf8x51b39jlfj987mhhm80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MailFlow-Prefix-eodaxxppvamgtkdkguicrtxuicft/MailFlow-Prefix.pch -MMD -MT dependencies -MF /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/main.dia -c /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/main.m -o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/main.o36"055F1B63-9BF1-4C96-86D2-885DA3AE9321-
+
+CCompileStoryboard /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/en.lproj/MainStoryboard.storyboard
+s360864325.879930
+e360864326.765830
+r1
+xCompileStoryboard
+x/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/en.lproj/MainStoryboard.storyboard
+o/* com.apple.ibtool.document.warnings */
+o/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/en.lproj/MainStoryboard.storyboard:6dV-xs-8J4: warning: Prototype table cells must have reuse identifiers [9]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"CompileStoryboard MailFlow/en.lproj/MainStoryboard.storyboard0952e1455a82b541^a20dc4465a82b541^-213"/* com.apple.ibtool.document.warnings *//Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/en.lproj/MainStoryboard.storyboard:6dV-xs-8J4: warning: Prototype table cells must have reuse identifiers [9]1(21%IDEActivityLogMessage2@49"Prototype table cells must have reuse identifiers-360864326#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@112"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/en.lproj/MainStoryboard.storyboard0000000000000000^5#18446744073709551615#5#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#0#-19%DVTDocumentLocation4@112"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/en.lproj/MainStoryboard.storyboard0000000000000000^944"CompileStoryboard MailFlow/en.lproj/MainStoryboard.storyboard    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/en.lproj/MainStoryboard.storyboardc /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/en.lproj/MainStoryboard.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"A2C825E2-0CDE-4C8D-91D8-8E3011A4E112-
+
+CCopyPlistFile /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/states.plist MailFlow/states.plist
+s360864326.096881
+e360864326.109473
+r1
+xCopyPlistFile
+x/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/states.plist
+xMailFlow/states.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Copy MailFlow/states.plist98e018465a82b541^03261c465a82b541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/states.plist0000000000000000^513"CopyPlistFile build/Debug-iphonesimulator/MailFlow.app/states.plist MailFlow/states.plist    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app -- MailFlow/states.plist36"FC4480AC-F323-415E-A0C3-8CD38C47AEC7-
+
+CCopyStringsFile /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/en.lproj/InfoPlist.strings MailFlow/en.lproj/InfoPlist.strings
+s360864325.879931
+e360864325.901760
+r1
+xCopyStringsFile
+x/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/en.lproj/InfoPlist.strings
+xMailFlow/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy MailFlow/en.lproj/InfoPlist.strings6151e1455a82b541^aed9e6455a82b541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/en.lproj/InfoPlist.strings0000000000000000^607"CopyStringsFile build/Debug-iphonesimulator/MailFlow.app/en.lproj/InfoPlist.strings MailFlow/en.lproj/InfoPlist.strings    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/en.lproj -- MailFlow/en.lproj/InfoPlist.strings36"AD86CA2F-2C95-43C2-B01A-942A9763A304-
+
+CCpResource MailFlow/images/Default.png build/Debug-iphonesimulator/MailFlow.app/Default.png
+s360864325.916333
+e360864325.933084
+r1
+xCpResource
+xMailFlow/images/Default.png
+xbuild/Debug-iphonesimulator/MailFlow.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/MailFlow.app/Default.png7fa2ea455a82b541^fcdeee455a82b541^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/Default.png000000000080d041^739"CpResource MailFlow/images/Default.png build/Debug-iphonesimulator/MailFlow.app/Default.png    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/Default.png /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"4B7A5FC8-9CBF-4F86-A204-D74A3E327EED-
+
+CCpResource MailFlow/images/Default@2x.png build/Debug-iphonesimulator/MailFlow.app/Default@2x.png
+s360864325.934357
+e360864325.949102
+r1
+xCpResource
+xMailFlow/images/Default@2x.png
+xbuild/Debug-iphonesimulator/MailFlow.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphonesimulator/MailFlow.app/Default@2x.png7040ef455a82b541^9cf8f2455a82b541^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/Default@2x.png000000000080d041^754"CpResource "MailFlow/images/Default@2x.png" "build/Debug-iphonesimulator/MailFlow.app/Default@2x.png"    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/Default@2x.png" /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"CBD3CDEE-D459-4795-8129-3E36FEC26C7B-
+
+CCpResource MailFlow/images/app-icon.png build/Debug-iphonesimulator/MailFlow.app/app-icon.png
+s360864325.903041
+e360864325.906273
+r1
+xCpResource
+xMailFlow/images/app-icon.png
+xbuild/Debug-iphonesimulator/MailFlow.app/app-icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphonesimulator/MailFlow.app/app-icon.pngf241e7455a82b541^af0ae8455a82b541^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/app-icon.png000000000080d041^742"CpResource MailFlow/images/app-icon.png build/Debug-iphonesimulator/MailFlow.app/app-icon.png    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/app-icon.png /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"C03B0DD5-F786-40C5-B89A-8DA15D93B9FF-
+
+CCpResource MailFlow/images/app-icon@2x.png build/Debug-iphonesimulator/MailFlow.app/app-icon@2x.png
+s360864325.907509
+e360864325.910747
+r1
+xCpResource
+xMailFlow/images/app-icon@2x.png
+xbuild/Debug-iphonesimulator/MailFlow.app/app-icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/MailFlow.app/app-icon@2x.png1f65e8455a82b541^9626e9455a82b541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/app-icon@2x.png000000000080d041^757"CpResource "MailFlow/images/app-icon@2x.png" "build/Debug-iphonesimulator/MailFlow.app/app-icon@2x.png"    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/app-icon@2x.png" /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"978688E2-C749-43AB-B91A-B63E2611685C-
+
+CCpResource MailFlow/images/avatar_default.png build/Debug-iphonesimulator/MailFlow.app/avatar_default.png
+s360864325.912056
+e360864325.915086
+r1
+xCpResource
+xMailFlow/images/avatar_default.png
+xbuild/Debug-iphonesimulator/MailFlow.app/avatar_default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/MailFlow.app/avatar_default.png0890e9455a82b541^8c4aea455a82b541^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/avatar_default.png000000000080d041^760"CpResource MailFlow/images/avatar_default.png build/Debug-iphonesimulator/MailFlow.app/avatar_default.png    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/avatar_default.png /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"9ABBD162-4271-4D2D-9C51-90CAA191F13D-
+
+CCpResource MailFlow/images/bg_DetailCell.png build/Debug-iphonesimulator/MailFlow.app/bg_DetailCell.png
+s360864326.067030
+e360864326.069483
+r1
+xCpResource
+xMailFlow/images/bg_DetailCell.png
+xbuild/Debug-iphonesimulator/MailFlow.app/bg_DetailCell.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/MailFlow.app/bg_DetailCell.png103d11465a82b541^e5d111465a82b541^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_DetailCell.png0000000000000000^757"CpResource MailFlow/images/bg_DetailCell.png build/Debug-iphonesimulator/MailFlow.app/bg_DetailCell.png    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_DetailCell.png /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"BA81BCF1-BA8E-49EB-8CDE-3956105B1271-
+
+CCpResource MailFlow/images/bg_DetailCell@2x.png build/Debug-iphonesimulator/MailFlow.app/bg_DetailCell@2x.png
+s360864326.071858
+e360864326.074761
+r1
+xCpResource
+xMailFlow/images/bg_DetailCell@2x.png
+xbuild/Debug-iphonesimulator/MailFlow.app/bg_DetailCell@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Debug-iphonesimulator/MailFlow.app/bg_DetailCell@2x.png9e7812465a82b541^f12e13465a82b541^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_DetailCell@2x.png000000000080d041^772"CpResource "MailFlow/images/bg_DetailCell@2x.png" "build/Debug-iphonesimulator/MailFlow.app/bg_DetailCell@2x.png"    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_DetailCell@2x.png" /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"EBCD7FCB-F9D9-4166-9269-BC8A8C22099E-
+
+CCpResource MailFlow/images/bg_NegBtn.png build/Debug-iphonesimulator/MailFlow.app/bg_NegBtn.png
+s360864326.110748
+e360864326.113891
+r1
+xCpResource
+xMailFlow/images/bg_NegBtn.png
+xbuild/Debug-iphonesimulator/MailFlow.app/bg_NegBtn.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/MailFlow.app/bg_NegBtn.png92751c465a82b541^98311d465a82b541^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_NegBtn.png000000000080d041^745"CpResource MailFlow/images/bg_NegBtn.png build/Debug-iphonesimulator/MailFlow.app/bg_NegBtn.png    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_NegBtn.png /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"D5AFE8DB-5BCC-48B1-87FE-423ECC5B6992-
+
+CCpResource MailFlow/images/bg_NegBtn@2x.png build/Debug-iphonesimulator/MailFlow.app/bg_NegBtn@2x.png
+s360864326.115185
+e360864326.118973
+r1
+xCpResource
+xMailFlow/images/bg_NegBtn@2x.png
+xbuild/Debug-iphonesimulator/MailFlow.app/bg_NegBtn@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/MailFlow.app/bg_NegBtn@2x.pngc1901d465a82b541^207e1e465a82b541^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_NegBtn@2x.png000000000080d041^760"CpResource "MailFlow/images/bg_NegBtn@2x.png" "build/Debug-iphonesimulator/MailFlow.app/bg_NegBtn@2x.png"    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_NegBtn@2x.png" /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"600879E5-A94A-4FD4-A518-C233ECD4C68E-
+
+CCpResource MailFlow/images/bg_NegCell.png build/Debug-iphonesimulator/MailFlow.app/bg_NegCell.png
+s360864326.043559
+e360864326.046155
+r1
+xCpResource
+xMailFlow/images/bg_NegCell.png
+xbuild/Debug-iphonesimulator/MailFlow.app/bg_NegCell.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphonesimulator/MailFlow.app/bg_NegCell.png643b0b465a82b541^d5cf0b465a82b541^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_NegCell.png000000000080d041^748"CpResource MailFlow/images/bg_NegCell.png build/Debug-iphonesimulator/MailFlow.app/bg_NegCell.png    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_NegCell.png /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"1CFF8652-5830-464C-A49E-418190126076-
+
+CCpResource MailFlow/images/bg_NegCell@2x.png build/Debug-iphonesimulator/MailFlow.app/bg_NegCell@2x.png
+s360864326.047429
+e360864326.050751
+r1
+xCpResource
+xMailFlow/images/bg_NegCell@2x.png
+xbuild/Debug-iphonesimulator/MailFlow.app/bg_NegCell@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/MailFlow.app/bg_NegCell@2x.png3b380c465a82b541^f8fc0c465a82b541^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_NegCell@2x.png000000000080d041^763"CpResource "MailFlow/images/bg_NegCell@2x.png" "build/Debug-iphonesimulator/MailFlow.app/bg_NegCell@2x.png"    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_NegCell@2x.png" /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"FCA9E944-CB7A-403F-AF42-ADA893E267A9-
+
+CCpResource MailFlow/images/bg_PosBtn.png build/Debug-iphonesimulator/MailFlow.app/bg_PosBtn.png
+s360864326.052005
+e360864326.056251
+r1
+xCpResource
+xMailFlow/images/bg_PosBtn.png
+xbuild/Debug-iphonesimulator/MailFlow.app/bg_PosBtn.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/MailFlow.app/bg_PosBtn.png5a620d465a82b541^09700e465a82b541^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_PosBtn.png000000000080d041^745"CpResource MailFlow/images/bg_PosBtn.png build/Debug-iphonesimulator/MailFlow.app/bg_PosBtn.png    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_PosBtn.png /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"A5E488DC-CF54-49D8-8776-5EA987FE499B-
+
+CCpResource MailFlow/images/bg_PosBtn@2x.png build/Debug-iphonesimulator/MailFlow.app/bg_PosBtn@2x.png
+s360864326.057540
+e360864326.065611
+r1
+xCpResource
+xMailFlow/images/bg_PosBtn@2x.png
+xbuild/Debug-iphonesimulator/MailFlow.app/bg_PosBtn@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/MailFlow.app/bg_PosBtn@2x.png34d60e465a82b541^decc10465a82b541^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_PosBtn@2x.png000000000080d041^760"CpResource "MailFlow/images/bg_PosBtn@2x.png" "build/Debug-iphonesimulator/MailFlow.app/bg_PosBtn@2x.png"    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_PosBtn@2x.png" /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"FCB57F1F-549F-4E54-A5A1-BBD781417294-
+
+CCpResource MailFlow/images/bg_PosCell.png build/Debug-iphonesimulator/MailFlow.app/bg_PosCell.png
+s360864326.010003
+e360864326.013162
+r1
+xCpResource
+xMailFlow/images/bg_PosCell.png
+xbuild/Debug-iphonesimulator/MailFlow.app/bg_PosCell.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphonesimulator/MailFlow.app/bg_PosCell.png23a402465a82b541^0b5f03465a82b541^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_PosCell.png000000000080d041^748"CpResource MailFlow/images/bg_PosCell.png build/Debug-iphonesimulator/MailFlow.app/bg_PosCell.png    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_PosCell.png /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"ABFC351D-A9E3-459F-817C-160C6CF21D23-
+
+CCpResource MailFlow/images/bg_PosCell@2x.png build/Debug-iphonesimulator/MailFlow.app/bg_PosCell@2x.png
+s360864326.018627
+e360864326.041115
+r1
+xCpResource
+xMailFlow/images/bg_PosCell@2x.png
+xbuild/Debug-iphonesimulator/MailFlow.app/bg_PosCell@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/MailFlow.app/bg_PosCell@2x.pngbfd704465a82b541^1d920a465a82b541^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_PosCell@2x.png000000000080d041^763"CpResource "MailFlow/images/bg_PosCell@2x.png" "build/Debug-iphonesimulator/MailFlow.app/bg_PosCell@2x.png"    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_PosCell@2x.png" /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"50295355-480C-4880-A6FB-79EE5E10A73F-
+
+CCpResource MailFlow/images/bg_detailCell.png build/Debug-iphonesimulator/MailFlow.app/bg_detailCell.png
+s360864325.969049
+e360864325.990982
+r1
+xCpResource
+xMailFlow/images/bg_detailCell.png
+xbuild/Debug-iphonesimulator/MailFlow.app/bg_detailCell.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/MailFlow.app/bg_detailCell.png5323f8455a82b541^07b3fd455a82b541^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/bg_detailCell.png000000000080d041^757"CpResource MailFlow/images/bg_detailCell.png build/Debug-iphonesimulator/MailFlow.app/bg_detailCell.png    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/bg_detailCell.png /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"CE43306D-55A2-4885-8B29-C3BB621CA1B6-
+
+CCpResource MailFlow/images/gradient_bg.png build/Debug-iphonesimulator/MailFlow.app/gradient_bg.png
+s360864325.950406
+e360864325.953416
+r1
+xCpResource
+xMailFlow/images/gradient_bg.png
+xbuild/Debug-iphonesimulator/MailFlow.app/gradient_bg.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/MailFlow.app/gradient_bg.png6c5cf3455a82b541^1213f4455a82b541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/gradient_bg.png000000000080d041^751"CpResource MailFlow/images/gradient_bg.png build/Debug-iphonesimulator/MailFlow.app/gradient_bg.png    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/gradient_bg.png /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"DCC8FE71-C199-49D7-8DB2-1716B1254344-
+
+CCpResource MailFlow/images/gradient_bg@2x.png build/Debug-iphonesimulator/MailFlow.app/gradient_bg@2x.png
+s360864325.954699
+e360864325.959421
+r1
+xCpResource
+xMailFlow/images/gradient_bg@2x.png
+xbuild/Debug-iphonesimulator/MailFlow.app/gradient_bg@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/MailFlow.app/gradient_bg@2x.png6075f4455a82b541^bb9df5455a82b541^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/gradient_bg@2x.png000000000080d041^766"CpResource "MailFlow/images/gradient_bg@2x.png" "build/Debug-iphonesimulator/MailFlow.app/gradient_bg@2x.png"    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/gradient_bg@2x.png" /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"8324ED72-2A69-425D-A478-C39AD6A5E39B-
+
+CCpResource MailFlow/images/icon_5star@2x.png build/Debug-iphonesimulator/MailFlow.app/icon_5star@2x.png
+s360864325.992238
+e360864325.995057
+r1
+xCpResource
+xMailFlow/images/icon_5star@2x.png
+xbuild/Debug-iphonesimulator/MailFlow.app/icon_5star@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/MailFlow.app/icon_5star@2x.png5611fe455a82b541^fdbbfe455a82b541^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/icon_5star@2x.png000000000080d041^763"CpResource "MailFlow/images/icon_5star@2x.png" "build/Debug-iphonesimulator/MailFlow.app/icon_5star@2x.png"    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/icon_5star@2x.png" /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"15C612AC-4A1D-4436-91CB-94EC826E6BD1-
+
+CCpResource MailFlow/images/icon_assignees@2x.png build/Debug-iphonesimulator/MailFlow.app/icon_assignees@2x.png
+s360864325.996484
+e360864325.999887
+r1
+xCpResource
+xMailFlow/images/icon_assignees@2x.png
+xbuild/Debug-iphonesimulator/MailFlow.app/icon_assignees@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/MailFlow.app/icon_assignees@2x.pngd82cff455a82b541^94f9ff455a82b541^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/icon_assignees@2x.png000000000080d041^775"CpResource "MailFlow/images/icon_assignees@2x.png" "build/Debug-iphonesimulator/MailFlow.app/icon_assignees@2x.png"    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/icon_assignees@2x.png" /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"C0603818-6AD5-4953-8847-26992FE84EDC-
+
+CCpResource MailFlow/images/icon_cal@2x.png build/Debug-iphonesimulator/MailFlow.app/icon_cal@2x.png
+s360864326.001181
+e360864326.003955
+r1
+xCpResource
+xMailFlow/images/icon_cal@2x.png
+xbuild/Debug-iphonesimulator/MailFlow.app/icon_cal@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/MailFlow.app/icon_cal@2x.png105d00465a82b541^8a0201465a82b541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/icon_cal@2x.png000000000080d041^757"CpResource "MailFlow/images/icon_cal@2x.png" "build/Debug-iphonesimulator/MailFlow.app/icon_cal@2x.png"    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/icon_cal@2x.png" /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"C310BD8F-95E0-48B8-BCCC-C484991C49AB-
+
+CCpResource MailFlow/images/icon_li.png build/Debug-iphonesimulator/MailFlow.app/icon_li.png
+s360864326.084520
+e360864326.087646
+r1
+xCpResource
+xMailFlow/images/icon_li.png
+xbuild/Debug-iphonesimulator/MailFlow.app/icon_li.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/MailFlow.app/icon_li.pngbfb715465a82b541^2a7016465a82b541^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/icon_li.png000000000080d041^739"CpResource MailFlow/images/icon_li.png build/Debug-iphonesimulator/MailFlow.app/icon_li.png    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/icon_li.png /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"9A756114-BCE5-40F2-B7F8-099EE586E043-
+
+CCpResource MailFlow/images/icon_li@2x.png build/Debug-iphonesimulator/MailFlow.app/icon_li@2x.png
+s360864326.076065
+e360864326.082922
+r1
+xCpResource
+xMailFlow/images/icon_li@2x.png
+xbuild/Debug-iphonesimulator/MailFlow.app/icon_li@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphonesimulator/MailFlow.app/icon_li@2x.pngf79113465a82b541^249915465a82b541^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/icon_li@2x.png000000000080d041^754"CpResource "MailFlow/images/icon_li@2x.png" "build/Debug-iphonesimulator/MailFlow.app/icon_li@2x.png"    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/icon_li@2x.png" /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"88C90817-4805-4F4E-9BCA-A8B79E9DB60F-
+
+CCpResource MailFlow/images/icon_settings.png build/Debug-iphonesimulator/MailFlow.app/icon_settings.png
+s360864326.088927
+e360864326.091616
+r1
+xCpResource
+xMailFlow/images/icon_settings.png
+xbuild/Debug-iphonesimulator/MailFlow.app/icon_settings.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/MailFlow.app/icon_settings.png38d916465a82b541^e17b17465a82b541^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/icon_settings.png000000000080d041^757"CpResource MailFlow/images/icon_settings.png build/Debug-iphonesimulator/MailFlow.app/icon_settings.png    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/icon_settings.png /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"969B8591-8CEE-43EF-80BC-08C840399D9C-
+
+CCpResource MailFlow/images/icon_settings@2x.png build/Debug-iphonesimulator/MailFlow.app/icon_settings@2x.png
+s360864326.092844
+e360864326.095629
+r1
+xCpResource
+xMailFlow/images/icon_settings@2x.png
+xbuild/Debug-iphonesimulator/MailFlow.app/icon_settings@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Debug-iphonesimulator/MailFlow.app/icon_settings@2x.png7bd817465a82b541^677b18465a82b541^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/icon_settings@2x.png000000000080d041^772"CpResource "MailFlow/images/icon_settings@2x.png" "build/Debug-iphonesimulator/MailFlow.app/icon_settings@2x.png"    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/icon_settings@2x.png" /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"63242CBE-C7DC-4ED9-BFF4-F3D7C0813154-
+
+CCpResource MailFlow/images/icon_tags@2x.png build/Debug-iphonesimulator/MailFlow.app/icon_tags@2x.png
+s360864326.005225
+e360864326.008646
+r1
+xCpResource
+xMailFlow/images/icon_tags@2x.png
+xbuild/Debug-iphonesimulator/MailFlow.app/icon_tags@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/MailFlow.app/icon_tags@2x.png736401465a82b541^e33602465a82b541^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/icon_tags@2x.png000000000080d041^760"CpResource "MailFlow/images/icon_tags@2x.png" "build/Debug-iphonesimulator/MailFlow.app/icon_tags@2x.png"    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/icon_tags@2x.png" /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"3EF9FB7B-BFE2-460C-995E-2855AC6B3B14-
+
+CCpResource MailFlow/images/logo.png build/Debug-iphonesimulator/MailFlow.app/logo.png
+s360864325.960690
+e360864325.963390
+r1
+xCpResource
+xMailFlow/images/logo.png
+xbuild/Debug-iphonesimulator/MailFlow.app/logo.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphonesimulator/MailFlow.app/logo.png11fef5455a82b541^a1b9f6455a82b541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/logo.png000000000080d041^730"CpResource MailFlow/images/logo.png build/Debug-iphonesimulator/MailFlow.app/logo.png    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/logo.png /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"36486B4C-7356-48D2-8A3F-37BB77A38578-
+
+CCpResource MailFlow/images/logo@2x.png build/Debug-iphonesimulator/MailFlow.app/logo@2x.png
+s360864325.964684
+e360864325.967787
+r1
+xCpResource
+xMailFlow/images/logo@2x.png
+xbuild/Debug-iphonesimulator/MailFlow.app/logo@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/MailFlow.app/logo@2x.pngb709f7455a82b541^e4c0f7455a82b541^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/logo@2x.png000000000080d041^745"CpResource "MailFlow/images/logo@2x.png" "build/Debug-iphonesimulator/MailFlow.app/logo@2x.png"    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/images/logo@2x.png" /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"E3362F54-8195-458A-A0B4-5B063F481360-
+
+CGenerateDSYMFile /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app.dSYM /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/MailFlow
+s360864325.784365
+e360864325.871747
+r1
+xGenerateDSYMFile
+x/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app.dSYM
+x/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/MailFlow
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Generating /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app.dSYMf5dac8455a82b541^8d2adf455a82b541^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app.dSYM000000000080d041^682"GenerateDSYMFile build/Debug-iphonesimulator/MailFlow.app.dSYM build/Debug-iphonesimulator/MailFlow.app/MailFlow    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/MailFlow -o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app.dSYM36"32D420B2-F1E0-4FA7-92A4-F0919F713831-
+
+CLd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/MailFlow normal i386
+s360864325.186526
+e360864325.777754
+r1
+xLd
+x/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/MailFlow
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Link /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/MailFlowa6d62f455a82b541^c11ac7455a82b541^---0#0#0#--1327"Ld build/Debug-iphonesimulator/MailFlow.app/MailFlow normal i386    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator -F/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/../../remail/MailCore/build/Debug -filelist /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/MailFlow.build/Debug-iphonesimulator/MailFlow.build/Objects-normal/i386/MailFlow.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/MailFlow36"87C6B5E7-E278-459E-A3DF-299506999B52-
+
+CProcessInfoPlistFile /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/Info.plist MailFlow/MailFlow-Info.plist
+s360864323.568987
+e360864323.599494
+r1
+xProcessInfoPlistFile
+x/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/Info.plist
+xMailFlow/MailFlow-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Process MailFlow/MailFlow-Info.plist17b791435a82b541^37389d435a82b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/MailFlow/MailFlow-Info.plist0000000000000000^699"ProcessInfoPlistFile build/Debug-iphonesimulator/MailFlow.app/Info.plist MailFlow/MailFlow-Info.plist    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MailFlow/MailFlow-Info.plist -genpkginfo /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app/Info.plist36"6636AC77-F130-452D-A04C-8BE2E710BA4F-
+
+CProcessPCH /Users/Eric.Olszewski/Library/Developer/Xcode/DerivedData/MailFlow-gsauydliogkvpwfkpwqlzrpoeajw/Index/PrecompiledHeaders/MailFlow-Prefix-dsshmpmalrpednfdedihksqajhls_ast/MailFlow-Prefix.pch.pth MailFlow/MailFlow-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/w4/ml2nf8x51b39jlfj987mhhm80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MailFlow-Prefix-eodaxxppvamgtkdkguicrtxuicft/MailFlow-Prefix.pch.pth MailFlow/MailFlow-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CTouch /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app
+s360864326.773998
+e360864326.815775
+r1
+xTouch
+x/Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Touch /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.appe739c6465a82b541^d4d6d0465a82b541^---0#0#0#--418"Touch build/Debug-iphonesimulator/MailFlow.app    cd /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Eric.Olszewski/Desktop/mailflow-copy/MailFlow/build/Debug-iphonesimulator/MailFlow.app36"FB6F0E0E-55ED-4AB0-9138-3DE540C532D3-
+

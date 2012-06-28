@@ -1,0 +1,993 @@
+TMailCore iOS
+v5
+r1
+cCheck dependencies
+cCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/JRLog.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/JRLog.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTPConnection.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTPConnection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTP.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTP.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTESMTP.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTESMTP.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIMEFactory.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_MessagePart.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_MessagePart.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_MultiPart.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_MultiPart.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_SinglePart.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_SinglePart.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_TextPart.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_TextPart.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_Enumerator.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_Enumerator.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAttachment.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAttachment.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAccount.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAccount.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAddress.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAddress.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreFolder.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreFolder.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreMessage.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreMessage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTBareMessage.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTBareMessage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTBareAttachment.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTBareAttachment.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/MailCoreUtilities.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/MailCoreUtilities.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTPAsyncConnection.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTPAsyncConnection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_HtmlPart.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_HtmlPart.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/libmailcore.a normal armv7
+cPBXCp Source/JRLog.h include/MailCore/JRLog.h
+cPBXCp Source/MailCore.h include/MailCore/MailCore.h
+cPBXCp Source/MailCoreTypes.h include/MailCore/MailCoreTypes.h
+cPBXCp Source/MailCoreUtilities.h include/MailCore/MailCoreUtilities.h
+cPBXCp Source/CTBareAttachment.h include/MailCore/CTBareAttachment.h
+cPBXCp Source/CTBareMessage.h include/MailCore/CTBareMessage.h
+cPBXCp Source/CTCoreMessage.h include/MailCore/CTCoreMessage.h
+cPBXCp Source/CTCoreFolder.h include/MailCore/CTCoreFolder.h
+cPBXCp Source/CTCoreAccount.h include/MailCore/CTCoreAccount.h
+cPBXCp Source/CTCoreAddress.h include/MailCore/CTCoreAddress.h
+cPBXCp Source/CTCoreAttachment.h include/MailCore/CTCoreAttachment.h
+cPBXCp Source/CTMIME_Enumerator.h include/MailCore/CTMIME_Enumerator.h
+cPBXCp Source/CTMIME.h include/MailCore/CTMIME.h
+cPBXCp Source/CTMIME_TextPart.h include/MailCore/CTMIME_TextPart.h
+cPBXCp Source/CTMIME_SinglePart.h include/MailCore/CTMIME_SinglePart.h
+cPBXCp Source/CTMIME_MultiPart.h include/MailCore/CTMIME_MultiPart.h
+cPBXCp Source/CTMIME_MessagePart.h include/MailCore/CTMIME_MessagePart.h
+cPBXCp Source/CTMIMEFactory.h include/MailCore/CTMIMEFactory.h
+cPBXCp Source/CTMIME_HtmlPart.h include/MailCore/CTMIME_HtmlPart.h
+cPBXCp Source/CTSMTPConnection.h include/MailCore/CTSMTPConnection.h
+cPBXCp Source/CTSMTPAsyncConnection.h include/MailCore/CTSMTPAsyncConnection.h
+cPBXCp Source/CTESMTP.h include/MailCore/CTESMTP.h
+cPBXCp Source/CTSMTP.h include/MailCore/CTSMTP.h
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/unistd.h
+c000000004F96C59700000000000066D1
+t1335281047
+s26321
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTBareAttachment.h
+c000000004F93623D00000000000007E1
+t1335059005
+s2017
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTBareAttachment.m
+c000000004F93623D0000000000000C1D
+t1335059005
+s3101
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTBareMessage.h
+c000000004F93623D000000000000076B
+t1335059005
+s1899
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTBareMessage.m
+c000000004F93623D0000000000000831
+t1335059005
+s2097
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAccount.h
+c000000004F93623D0000000000000F3E
+t1335059005
+s3902
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAccount.m
+c000000004F93623D00000000000019D0
+t1335059005
+s6608
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAddress.h
+c000000004F93623D0000000000000B49
+t1335059005
+s2889
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAddress.m
+c000000004F93623D0000000000000D95
+t1335059005
+s3477
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAttachment.h
+c000000004F93623D000000000000078F
+t1335059005
+s1935
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAttachment.m
+c000000004F93623D0000000000000B56
+t1335059005
+s2902
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreFolder.h
+c000000004F93623D0000000000001A5E
+t1335059005
+s6750
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreFolder.m
+c000000004F93623D00000000000049AF
+t1335059005
+s18863
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreMessage.h
+c000000004F93623D0000000000002044
+t1335059005
+s8260
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreMessage.m
+c000000004F93623D0000000000005ADD
+t1335059005
+s23261
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTESMTP.h
+c000000004F93623D00000000000007FB
+t1335059005
+s2043
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTESMTP.m
+c000000004F93623D0000000000001722
+t1335059005
+s5922
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME.h
+c000000004F93623D00000000000007CF
+t1335059005
+s1999
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME.m
+c000000004F93623D0000000000001033
+t1335059005
+s4147
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h
+c000000004F93623D000000000000078B
+t1335059005
+s1931
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m
+c000000004F93623D0000000000000CA5
+t1335059005
+s3237
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_Enumerator.h
+c000000004F93623D000000000000071F
+t1335059005
+s1823
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_Enumerator.m
+c000000004F93623D0000000000000A51
+t1335059005
+s2641
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_HtmlPart.h
+c000000004F93623D000000000000072B
+t1335059005
+s1835
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_HtmlPart.m
+c000000004F93623D0000000000000FFE
+t1335059005
+s4094
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_MessagePart.h
+c000000004F93623D00000000000007A3
+t1335059005
+s1955
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_MessagePart.m
+c000000004F93623D0000000000000B8B
+t1335059005
+s2955
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_MultiPart.h
+c000000004F93623D00000000000006E6
+t1335059005
+s1766
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_MultiPart.m
+c000000004F93623D0000000000000C03
+t1335059005
+s3075
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_SinglePart.h
+c000000004F93623D0000000000000818
+t1335059005
+s2072
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_SinglePart.m
+c000000004F93623D00000000000015EC
+t1335059005
+s5612
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_TextPart.h
+c000000004F93623D000000000000071C
+t1335059005
+s1820
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_TextPart.m
+c000000004F93623D0000000000000FDF
+t1335059005
+s4063
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTP.h
+c000000004F93623D0000000000000964
+t1335059005
+s2404
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTP.m
+c000000004F93623D0000000000000F0D
+t1335059005
+s3853
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTPAsyncConnection.h
+c000000004F93623D000000000000053C
+t1335059005
+s1340
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTPAsyncConnection.m
+c000000004F93623D0000000000001C01
+t1335059005
+s7169
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTPConnection.h
+c000000004F93623D0000000000000B07
+t1335059005
+s2823
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTPConnection.m
+c000000004F93623D0000000000000B82
+t1335059005
+s2946
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/JRLog.h
+c000000004F93623D00000000000009E3
+t1335059005
+s2531
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/JRLog.m
+c000000004F93623D0000000000001EEB
+t1335059005
+s7915
+i"JRLog.h"
+i<unistd.h>
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/MailCore.h
+c000000004F93623D000000000000071D
+t1335059005
+s1821
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/MailCoreTypes.h
+c000000004F93623D000000000000114B
+t1335059005
+s4427
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/MailCoreUtilities.h
+c000000004F93623D0000000000000835
+t1335059005
+s2101
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/MailCoreUtilities.m
+c000000004F93623D0000000000000BFB
+t1335059005
+s3067
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/libmailcore.a
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTBareAttachment.o
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTBareMessage.o
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAccount.o
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAddress.o
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAttachment.o
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreFolder.o
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreMessage.o
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTESMTP.o
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME.o
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIMEFactory.o
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_Enumerator.o
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_HtmlPart.o
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_MessagePart.o
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_MultiPart.o
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_SinglePart.o
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_TextPart.o
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTP.o
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTPAsyncConnection.o
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTPConnection.o
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/JRLog.o
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/MailCoreUtilities.o
+t2
+s0
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/mailcore.LinkFileList
+c000000004FC651030000000000000BB2
+t1338396931
+s2994
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/CTBareAttachment.h
+t1335059187
+s2017
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/CTBareMessage.h
+t1335059187
+s1899
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/CTCoreAccount.h
+t1335059187
+s3902
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/CTCoreAddress.h
+t1335059187
+s2889
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/CTCoreAttachment.h
+t1335059187
+s1935
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/CTCoreFolder.h
+t1335059187
+s6750
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/CTCoreMessage.h
+t1335059187
+s8260
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/CTESMTP.h
+t1335059187
+s2043
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/CTMIME.h
+t1335059187
+s1999
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/CTMIMEFactory.h
+t1335059187
+s1931
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/CTMIME_Enumerator.h
+t1335059187
+s1823
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/CTMIME_HtmlPart.h
+t1335059187
+s1835
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/CTMIME_MessagePart.h
+t1335059187
+s1955
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/CTMIME_MultiPart.h
+t1335059187
+s1766
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/CTMIME_SinglePart.h
+t1335059187
+s2072
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/CTMIME_TextPart.h
+t1335059187
+s1820
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/CTSMTP.h
+t1335059187
+s2404
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/CTSMTPAsyncConnection.h
+t1335059187
+s1340
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/CTSMTPConnection.h
+t1335059187
+s2823
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/JRLog.h
+t1335059187
+s2531
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/MailCore.h
+t1335059187
+s1821
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/MailCoreTypes.h
+t1335059187
+s4427
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/include/MailCore/MailCoreUtilities.h
+t1335059187
+s2101
+
+N/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/libetpan/build-mac/build/Debug-iphoneos/libetpan_ios.a
+c000000004FC651020000000000396FD8
+t1338396930
+s3764184
+
+CBuild AST from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTBareAttachment.m
+r0
+
+CBuild AST from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTBareMessage.m
+r0
+
+CBuild AST from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAccount.m
+r0
+
+CBuild AST from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAddress.m
+r0
+
+CBuild AST from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAttachment.m
+r0
+
+CBuild AST from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreFolder.m
+r0
+
+CBuild AST from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreMessage.m
+r0
+
+CBuild AST from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTESMTP.m
+r0
+
+CBuild AST from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME.m
+r0
+
+CBuild AST from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m
+r0
+
+CBuild AST from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_Enumerator.m
+r0
+
+CBuild AST from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_HtmlPart.m
+r0
+
+CBuild AST from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_MessagePart.m
+r0
+
+CBuild AST from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_MultiPart.m
+r0
+
+CBuild AST from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_SinglePart.m
+r0
+
+CBuild AST from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_TextPart.m
+r0
+
+CBuild AST from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTP.m
+r0
+
+CBuild AST from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTPAsyncConnection.m
+r0
+
+CBuild AST from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTPConnection.m
+r0
+
+CBuild AST from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/JRLog.m
+r0
+
+CBuild AST from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/MailCoreUtilities.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies19c601838876b541^618e02838876b541^---0#1#0#--18"Check dependencies36"D342B458-6505-4992-82C4-CCFEE8704D1E-
+
+CCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTBareAttachment.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTBareAttachment.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360089732.084880
+e360089732.322245
+r1
+xCompileC
+xbuild/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTBareAttachment.o
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTBareAttachment.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTBareAttachment.m:54:6: warning: implicit declaration of function 'StringStartsWith' is invalid in C99 [-Wimplicit-function-declaration]
+o        if (StringStartsWith(self.filename, @"=?ISO-8859-1?Q?")) {
+o            ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTBareAttachment.m64eb15848876b541^819652848876b541^-297"/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTBareAttachment.m:54:6: warning: implicit declaration of function 'StringStartsWith' is invalid in C99 [-Wimplicit-function-declaration]        if (StringStartsWith(self.filename, @"=?ISO-8859-1?Q?")) {            ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@69"Implicit declaration of function 'StringStartsWith' is invalid in C99-360089732#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@91"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTBareAttachment.m0000000000000000^53#5#53#5#2074#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@91"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTBareAttachment.m0000000000000000^3162"CompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTBareAttachment.o" Source/CTBareAttachment.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-generated-files.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-own-target-headers.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-all-target-headers.hmap" -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-project-headers.hmap" -I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/include -Ilibetpan/build-mac/include -Ilibetpan/build-mac/include/libetpan "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources/armv7" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources" -F/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -MMD -MT dependencies -MF "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTBareAttachment.d" --serialize-diagnostics "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTBareAttachment.dia" -c /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTBareAttachment.m -o "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTBareAttachment.o"36"26D2DBC0-F148-4FAE-B987-497309D4565F-
+
+CCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTBareMessage.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTBareMessage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360089732.051434
+e360089732.236113
+r1
+xCompileC
+xbuild/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTBareMessage.o
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTBareMessage.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTBareMessage.mb35d0d848876b541^eb8b3c848876b541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTBareMessage.m0000000000000000^3144"CompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTBareMessage.o" Source/CTBareMessage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-generated-files.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-own-target-headers.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-all-target-headers.hmap" -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-project-headers.hmap" -I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/include -Ilibetpan/build-mac/include -Ilibetpan/build-mac/include/libetpan "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources/armv7" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources" -F/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -MMD -MT dependencies -MF "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTBareMessage.d" --serialize-diagnostics "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTBareMessage.dia" -c /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTBareMessage.m -o "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTBareMessage.o"36"1028C890-DB3A-4441-9DCC-D72C2DE97B56-
+
+CCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAccount.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAccount.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360089731.765207
+e360089732.026311
+r1
+xCompileC
+xbuild/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAccount.o
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAccount.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAccount.m3317c4838876b541^29d007848876b541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAccount.m0000000000000000^3144"CompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAccount.o" Source/CTCoreAccount.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-generated-files.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-own-target-headers.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-all-target-headers.hmap" -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-project-headers.hmap" -I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/include -Ilibetpan/build-mac/include -Ilibetpan/build-mac/include/libetpan "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources/armv7" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources" -F/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -MMD -MT dependencies -MF "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAccount.d" --serialize-diagnostics "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAccount.dia" -c /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAccount.m -o "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAccount.o"36"6B869000-A7A6-471F-A824-B6B2DE55F9A5-
+
+CCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAddress.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAddress.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360089731.872667
+e360089732.082884
+r1
+xCompileC
+xbuild/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAddress.o
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAddress.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAddress.m:71:6: warning: implicit declaration of function 'StringStartsWith' is invalid in C99 [-Wimplicit-function-declaration]
+o        if (StringStartsWith(self.name, @"=?ISO-8859-1?Q?")) {
+o            ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAddress.m2098df838876b541^3c4a15848876b541^-290"/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAddress.m:71:6: warning: implicit declaration of function 'StringStartsWith' is invalid in C99 [-Wimplicit-function-declaration]        if (StringStartsWith(self.name, @"=?ISO-8859-1?Q?")) {            ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@69"Implicit declaration of function 'StringStartsWith' is invalid in C99-360089732#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAddress.m0000000000000000^70#5#70#5#2267#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAddress.m0000000000000000^3144"CompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAddress.o" Source/CTCoreAddress.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-generated-files.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-own-target-headers.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-all-target-headers.hmap" -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-project-headers.hmap" -I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/include -Ilibetpan/build-mac/include -Ilibetpan/build-mac/include/libetpan "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources/armv7" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources" -F/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -MMD -MT dependencies -MF "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAddress.d" --serialize-diagnostics "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAddress.dia" -c /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAddress.m -o "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAddress.o"36"FE7944EF-FA84-49A8-883A-54D640D50BD2-
+
+CCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAttachment.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAttachment.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360089731.677992
+e360089731.871322
+r1
+xCompileC
+xbuild/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAttachment.o
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAttachment.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAttachment.mf0bfad838876b541^5723df838876b541^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAttachment.m0000000000000000^3162"CompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAttachment.o" Source/CTCoreAttachment.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-generated-files.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-own-target-headers.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-all-target-headers.hmap" -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-project-headers.hmap" -I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/include -Ilibetpan/build-mac/include -Ilibetpan/build-mac/include/libetpan "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources/armv7" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources" -F/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -MMD -MT dependencies -MF "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAttachment.d" --serialize-diagnostics "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAttachment.dia" -c /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreAttachment.m -o "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreAttachment.o"36"17DBA8D8-0517-404B-91BA-E0C91400E62C-
+
+CCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreFolder.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreFolder.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360089731.892862
+e360089732.236217
+r1
+xCompileC
+xbuild/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreFolder.o
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreFolder.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreFolder.m:72:2: warning: implicit declaration of function 'IfTrue_RaiseException' is invalid in C99 [-Wimplicit-function-declaration]
+o        IfTrue_RaiseException(err != MAILIMAP_NO_ERROR, CTUnknownError, 
+o        ^
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreFolder.m:316:9: warning: implicit declaration of function 'imap_flags_to_flags' is invalid in C99 [-Wimplicit-function-declaration]
+o                                r = imap_flags_to_flags(item->att_data.att_dyn, &flags);
+o                                    ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreFolder.m54c5e4838876b541^f7943c848876b541^-623"/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreFolder.m:72:2: warning: implicit declaration of function 'IfTrue_RaiseException' is invalid in C99 [-Wimplicit-function-declaration]        IfTrue_RaiseException(err != MAILIMAP_NO_ERROR, CTUnknownError,         ^/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreFolder.m:316:9: warning: implicit declaration of function 'imap_flags_to_flags' is invalid in C99 [-Wimplicit-function-declaration]                                r = imap_flags_to_flags(item->att_data.att_dyn, &flags);                                    ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@74"Implicit declaration of function 'IfTrue_RaiseException' is invalid in C99-360089732#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@87"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreFolder.m0000000000000000^71#1#71#1#2458#0#14"Semantic Issue--2@72"Implicit declaration of function 'imap_flags_to_flags' is invalid in C99-360089732#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreFolder.m0000000000000000^315#8#315#8#9137#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@87"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreFolder.m0000000000000000^3138"CompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreFolder.o" Source/CTCoreFolder.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-generated-files.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-own-target-headers.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-all-target-headers.hmap" -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-project-headers.hmap" -I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/include -Ilibetpan/build-mac/include -Ilibetpan/build-mac/include/libetpan "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources/armv7" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources" -F/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -MMD -MT dependencies -MF "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreFolder.d" --serialize-diagnostics "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreFolder.dia" -c /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreFolder.m -o "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreFolder.o"36"9552EBB5-C3B4-4D31-B969-631E257DC884-
+
+CCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreMessage.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreMessage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360089731.901186
+e360089732.269944
+r1
+xCompileC
+xbuild/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreMessage.o
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreMessage.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreMessage.m:371:13: warning: 'addTimeInterval:' is deprecated [-Wdeprecated-declarations]
+o    return [date addTimeInterval:timezoneOffsetInSeconds * -1];
+o            ^
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreMessage.m:375:13: warning: 'addTimeInterval:' is deprecated [-Wdeprecated-declarations]
+o    return [[self sentDateGMT] addTimeInterval:[[NSTimeZone localTimeZone] secondsFromGMT]];
+o            ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreMessage.m60e7e6838876b541^204145848876b541^-509"/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreMessage.m:371:13: warning: 'addTimeInterval:' is deprecated [-Wdeprecated-declarations]    return [date addTimeInterval:timezoneOffsetInSeconds * -1];            ^/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreMessage.m:375:13: warning: 'addTimeInterval:' is deprecated [-Wdeprecated-declarations]    return [[self sentDateGMT] addTimeInterval:[[NSTimeZone localTimeZone] secondsFromGMT]];            ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@32"'addTimeInterval:' is deprecated-360089732#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreMessage.m0000000000000000^370#12#370#12#11609#0#12"Deprecations--2@32"'addTimeInterval:' is deprecated-360089732#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreMessage.m0000000000000000^374#12#374#12#11711#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreMessage.m0000000000000000^3144"CompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreMessage.o" Source/CTCoreMessage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-generated-files.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-own-target-headers.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-all-target-headers.hmap" -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-project-headers.hmap" -I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/include -Ilibetpan/build-mac/include -Ilibetpan/build-mac/include/libetpan "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources/armv7" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources" -F/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -MMD -MT dependencies -MF "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreMessage.d" --serialize-diagnostics "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreMessage.dia" -c /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTCoreMessage.m -o "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTCoreMessage.o"36"E98C50B4-1A55-4421-8324-79C0AD134E30-
+
+CCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTESMTP.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTESMTP.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360089731.024384
+e360089731.315889
+r1
+xCompileC
+xbuild/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTESMTP.o
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTESMTP.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTESMTP.m:107:2: warning: implicit declaration of function 'IfTrue_RaiseException' is invalid in C99 [-Wimplicit-function-declaration]
+o        IfTrue_RaiseException(ret != MAILSMTP_NO_ERROR, CTSMTPTLS, CTSMTPTLSDesc);
+o        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTESMTP.m6bb606838876b541^a5f450838876b541^-306"/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTESMTP.m:107:2: warning: implicit declaration of function 'IfTrue_RaiseException' is invalid in C99 [-Wimplicit-function-declaration]        IfTrue_RaiseException(ret != MAILSMTP_NO_ERROR, CTSMTPTLS, CTSMTPTLSDesc);        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@74"Implicit declaration of function 'IfTrue_RaiseException' is invalid in C99-360089731#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@82"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTESMTP.m0000000000000000^106#1#106#1#3418#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@82"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTESMTP.m0000000000000000^3108"CompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTESMTP.o" Source/CTESMTP.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-generated-files.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-own-target-headers.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-all-target-headers.hmap" -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-project-headers.hmap" -I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/include -Ilibetpan/build-mac/include -Ilibetpan/build-mac/include/libetpan "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources/armv7" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources" -F/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -MMD -MT dependencies -MF "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTESMTP.d" --serialize-diagnostics "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTESMTP.dia" -c /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTESMTP.m -o "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTESMTP.o"36"CBC35BB3-0B79-4F22-A4BC-C2F662E0700D-
+
+CCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360089731.615618
+e360089731.899599
+r1
+xCompileC
+xbuild/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME.o
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME.m:95:1: warning: writable atomic property 'contentType' cannot pair a synthesized setter with a user defined getter [-Watomic-property-with-user-defined-accessor]
+o- (NSString *)contentType {
+o^
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME.m:95:1: note: setter and getter must both be synthesized, or both be user defined,or the property must be nonatomic
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME.h:40:29: note: property declared here
+o@property(retain) NSString *contentType;
+o                            ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME.m3ace9d838876b541^8c69e6838876b541^-631"/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME.m:95:1: warning: writable atomic property 'contentType' cannot pair a synthesized setter with a user defined getter [-Watomic-property-with-user-defined-accessor]- (NSString *)contentType {^/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME.m:95:1: note: setter and getter must both be synthesized, or both be user defined,or the property must be nonatomic/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME.h:40:29: note: property declared here@property(retain) NSString *contentType;                            ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@98"Writable atomic property 'contentType' cannot pair a synthesized setter with a user defined getter-360089731#18446744073709551615#0#2(2@101"Setter and getter must both be synthesized, or both be user defined,or the property must be nonatomic-360089731#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@81"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME.m0000000000000000^94#0#94#0#3411#0#14"Semantic Issue--2@22"Property declared here-360089731#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME.h0000000000000000^39#28#39#28#1755#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME.m0000000000000000^94#0#94#0#3411#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@81"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME.m0000000000000000^3102"CompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME.o" Source/CTMIME.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-generated-files.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-own-target-headers.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-all-target-headers.hmap" -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-project-headers.hmap" -I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/include -Ilibetpan/build-mac/include -Ilibetpan/build-mac/include/libetpan "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources/armv7" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources" -F/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -MMD -MT dependencies -MF "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME.d" --serialize-diagnostics "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME.dia" -c /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME.m -o "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME.o"36"FFC0AA10-5F88-461B-AB7A-86423B0EA16F-
+
+CCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIMEFactory.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360089731.259443
+e360089731.518439
+r1
+xCompileC
+xbuild/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIMEFactory.o
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m:32:
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h:39:46: warning: declaration of 'struct mailmime' will not be visible outside of this function
+o+ (CTMIME *)createMIMEWithMIMEStruct:(struct mailmime *)mime 
+o                                             ^
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h:40:24: warning: declaration of 'struct mailmessage' will not be visible outside of this function
+o                                forMessage:(struct mailmessage *)message;
+o                                                   ^
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h:41:67: warning: declaration of 'struct mailmime' will not be visible outside of this function
+o+ (CTMIME_SinglePart *)createMIMESinglePartWithMIMEStruct:(struct mailmime *)mime
+o                                                                  ^
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h:42:26: warning: declaration of 'struct mailmessage' will not be visible outside of this function
+o                                                forMessage:(struct mailmessage *)message;
+o                                                                   ^
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m:47:3: warning: implicit declaration of function 'RaiseException' is invalid in C99 [-Wimplicit-function-declaration]
+o                RaiseException(CTMIMEParseError, CTMIMEParseErrorDesc);
+o                ^
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m:53:61: warning: incompatible pointer types sending 'struct mailmime *' to parameter of type 'struct mailmime *' [-Wincompatible-pointer-types]
+o                        return [CTMIMEFactory createMIMESinglePartWithMIMEStruct:mime
+o                                                                                 ^~~~
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h:41:78: note: passing argument to parameter 'mime' here
+o+ (CTMIME_SinglePart *)createMIMESinglePartWithMIMEStruct:(struct mailmime *)mime
+o                                                                             ^
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m:54:28: warning: incompatible pointer types sending 'struct mailmessage *' to parameter of type 'struct mailmessage *' [-Wincompatible-pointer-types]
+o                                                                                                                  forMessage:message];
+o                                                                                                                             ^~~~~~~
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h:42:40: note: passing argument to parameter 'message' here
+o                                                forMessage:(struct mailmessage *)message;
+o                                                                                 ^
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m:44:57: warning: conflicting parameter types in implementation of 'createMIMEWithMIMEStruct:forMessage:': 'struct mailmime *' vs 'struct mailmime *'
+o+ (CTMIME *)createMIMEWithMIMEStruct:(struct mailmime *)mime 
+o                                      ~~~~~~~~~~~~~~~~~ ^
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h:39:57: note: previous definition is here
+o+ (CTMIME *)createMIMEWithMIMEStruct:(struct mailmime *)mime 
+o                                      ~~~~~~~~~~~~~~~~~ ^
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m:45:42: warning: conflicting parameter types in implementation of 'createMIMEWithMIMEStruct:forMessage:': 'struct mailmessage *' vs 'struct mailmessage *'
+o                                                  forMessage:(struct mailmessage *)message {
+o                                                              ~~~~~~~~~~~~~~~~~~~~ ^
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h:40:38: note: previous definition is here
+o                                forMessage:(struct mailmessage *)message;
+o                                            ~~~~~~~~~~~~~~~~~~~~ ^
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m:68:78: warning: conflicting parameter types in implementation of 'createMIMESinglePartWithMIMEStruct:forMessage:': 'struct mailmime *' vs 'struct mailmime *'
+o+ (CTMIME_SinglePart *)createMIMESinglePartWithMIMEStruct:(struct mailmime *)mime 
+o                                                           ~~~~~~~~~~~~~~~~~ ^
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h:41:78: note: previous definition is here
+o+ (CTMIME_SinglePart *)createMIMESinglePartWithMIMEStruct:(struct mailmime *)mime
+o                                                           ~~~~~~~~~~~~~~~~~ ^
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m:69:48: warning: conflicting parameter types in implementation of 'createMIMESinglePartWithMIMEStruct:forMessage:': 'struct mailmessage *' vs 'struct mailmessage *'
+o                                                                                           forMessage:(struct mailmessage *)message {
+o                                                                                                       ~~~~~~~~~~~~~~~~~~~~ ^
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h:42:40: note: previous definition is here
+o                                                forMessage:(struct mailmessage *)message;
+o                                                            ~~~~~~~~~~~~~~~~~~~~ ^
+o11 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m709a42838876b541^b4e984838876b541^-5779"In file included from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m:32:/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h:39:46: warning: declaration of 'struct mailmime' will not be visible outside of this function+ (CTMIME *)createMIMEWithMIMEStruct:(struct mailmime *)mime                                              ^/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h:40:24: warning: declaration of 'struct mailmessage' will not be visible outside of this function                                forMessage:(struct mailmessage *)message;                                                   ^/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h:41:67: warning: declaration of 'struct mailmime' will not be visible outside of this function+ (CTMIME_SinglePart *)createMIMESinglePartWithMIMEStruct:(struct mailmime *)mime                                                                  ^/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h:42:26: warning: declaration of 'struct mailmessage' will not be visible outside of this function                                                forMessage:(struct mailmessage *)message;                                                                   ^/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m:47:3: warning: implicit declaration of function 'RaiseException' is invalid in C99 [-Wimplicit-function-declaration]                RaiseException(CTMIMEParseError, CTMIMEParseErrorDesc);                ^/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m:53:61: warning: incompatible pointer types sending 'struct mailmime *' to parameter of type 'struct mailmime *' [-Wincompatible-pointer-types]                        return [CTMIMEFactory createMIMESinglePartWithMIMEStruct:mime                                                                                 ^~~~/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h:41:78: note: passing argument to parameter 'mime' here+ (CTMIME_SinglePart *)createMIMESinglePartWithMIMEStruct:(struct mailmime *)mime                                                                             ^/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m:54:28: warning: incompatible pointer types sending 'struct mailmessage *' to parameter of type 'struct mailmessage *' [-Wincompatible-pointer-types]                                                                                                                  forMessage:message];                                                                                                                             ^~~~~~~/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h:42:40: note: passing argument to parameter 'message' here                                                forMessage:(struct mailmessage *)message;                                                                                 ^/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m:44:57: warning: conflicting parameter types in implementation of 'createMIMEWithMIMEStruct:forMessage:': 'struct mailmime *' vs 'struct mailmime *'+ (CTMIME *)createMIMEWithMIMEStruct:(struct mailmime *)mime                                       ~~~~~~~~~~~~~~~~~ ^/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h:39:57: note: previous definition is here+ (CTMIME *)createMIMEWithMIMEStruct:(struct mailmime *)mime                                       ~~~~~~~~~~~~~~~~~ ^/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m:45:42: warning: conflicting parameter types in implementation of 'createMIMEWithMIMEStruct:forMessage:': 'struct mailmessage *' vs 'struct mailmessage *'                                                  forMessage:(struct mailmessage *)message {                                                              ~~~~~~~~~~~~~~~~~~~~ ^/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h:40:38: note: previous definition is here                                forMessage:(struct mailmessage *)message;                                            ~~~~~~~~~~~~~~~~~~~~ ^/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m:68:78: warning: conflicting parameter types in implementation of 'createMIMESinglePartWithMIMEStruct:forMessage:': 'struct mailmime *' vs 'struct mailmime *'+ (CTMIME_SinglePart *)createMIMESinglePartWithMIMEStruct:(struct mailmime *)mime                                                            ~~~~~~~~~~~~~~~~~ ^/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h:41:78: note: previous definition is here+ (CTMIME_SinglePart *)createMIMESinglePartWithMIMEStruct:(struct mailmime *)mime                                                           ~~~~~~~~~~~~~~~~~ ^/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m:69:48: warning: conflicting parameter types in implementation of 'createMIMESinglePartWithMIMEStruct:forMessage:': 'struct mailmessage *' vs 'struct mailmessage *'                                                                                           forMessage:(struct mailmessage *)message {                                                                                                       ~~~~~~~~~~~~~~~~~~~~ ^/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h:42:40: note: previous definition is here                                                forMessage:(struct mailmessage *)message;                                                            ~~~~~~~~~~~~~~~~~~~~ ^11 warnings generated.11(36%IDEClangDiagnosticActivityLogMessage2@77"Declaration of 'struct mailmime' will not be visible outside of this function-360089731#18446744073709551615#0#1(2@98"In file included from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m:32:-360089731#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m0000000000000000^31#8#31#8#1585#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h0000000000000000^38#45#38#45#1733#0#14"Semantic Issue--2@80"Declaration of 'struct mailmessage' will not be visible outside of this function-360089731#18446744073709551615#0#1(2@98"In file included from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m:32:-360089731#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m0000000000000000^31#8#31#8#1585#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h0000000000000000^39#23#39#23#1773#0#14"Semantic Issue--2@77"Declaration of 'struct mailmime' will not be visible outside of this function-360089731#18446744073709551615#0#1(2@98"In file included from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m:32:-360089731#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m0000000000000000^31#8#31#8#1585#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h0000000000000000^40#66#40#66#1862#0#14"Semantic Issue--2@80"Declaration of 'struct mailmessage' will not be visible outside of this function-360089731#18446744073709551615#0#1(2@98"In file included from /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m:32:-360089731#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m0000000000000000^31#8#31#8#1585#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h0000000000000000^41#25#41#25#1903#0#14"Semantic Issue--2@67"Implicit declaration of function 'RaiseException' is invalid in C99-360089731#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m0000000000000000^46#2#46#2#1964#0#14"Semantic Issue--2@95"Incompatible pointer types sending 'struct mailmime *' to parameter of type 'struct mailmime *'-360089731#18446744073709551615#0#1(2@41"Passing argument to parameter 'mime' here-360089731#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h0000000000000000^40#77#40#77#1873#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m0000000000000000^52#60#52#60#2149#0#14"Semantic Issue1(3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m0000000000000000^52#60#52#64#2149#0#-2@101"Incompatible pointer types sending 'struct mailmessage *' to parameter of type 'struct mailmessage *'-360089731#18446744073709551615#0#1(2@44"Passing argument to parameter 'message' here-360089731#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h0000000000000000^41#39#41#39#1917#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m0000000000000000^53#27#53#27#2181#0#14"Semantic Issue1(3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m0000000000000000^53#27#53#34#2181#0#-2@131"Conflicting parameter types in implementation of 'createMIMEWithMIMEStruct:forMessage:': 'struct mailmime *' vs 'struct mailmime *'-360089731#18446744073709551615#0#1(2@27"Previous definition is here-360089731#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h0000000000000000^38#56#38#56#1744#0#21"Clang LLVM 1.0 Notice1(3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h0000000000000000^38#38#38#55#1726#16#-1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m0000000000000000^43#56#43#56#1885#0#14"Semantic Issue1(3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m0000000000000000^43#38#43#55#1867#16#-2@137"Conflicting parameter types in implementation of 'createMIMEWithMIMEStruct:forMessage:': 'struct mailmessage *' vs 'struct mailmessage *'-360089731#18446744073709551615#0#1(2@27"Previous definition is here-360089731#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h0000000000000000^39#37#39#37#1787#0#21"Clang LLVM 1.0 Notice1(3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h0000000000000000^39#16#39#36#1766#19#-1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m0000000000000000^44#41#44#41#1932#0#14"Semantic Issue1(3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m0000000000000000^44#20#44#40#1911#19#-2@141"Conflicting parameter types in implementation of 'createMIMESinglePartWithMIMEStruct:forMessage:': 'struct mailmime *' vs 'struct mailmime *'-360089731#18446744073709551615#0#1(2@27"Previous definition is here-360089731#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h0000000000000000^40#77#40#77#1873#0#21"Clang LLVM 1.0 Notice1(3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h0000000000000000^40#59#40#76#1855#16#-1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m0000000000000000^67#77#67#77#2589#0#14"Semantic Issue1(3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m0000000000000000^67#59#67#76#2571#16#-2@147"Conflicting parameter types in implementation of 'createMIMESinglePartWithMIMEStruct:forMessage:': 'struct mailmessage *' vs 'struct mailmessage *'-360089731#18446744073709551615#0#1(2@27"Previous definition is here-360089731#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h0000000000000000^41#39#41#39#1917#0#21"Clang LLVM 1.0 Notice1(3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.h0000000000000000^41#18#41#38#1896#19#-1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m0000000000000000^68#47#68#47#2642#0#14"Semantic Issue1(3@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m0000000000000000^68#26#68#46#2621#19#-0#0#0#-19%DVTDocumentLocation4@88"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m0000000000000000^3144"CompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIMEFactory.o" Source/CTMIMEFactory.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-generated-files.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-own-target-headers.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-all-target-headers.hmap" -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-project-headers.hmap" -I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/include -Ilibetpan/build-mac/include -Ilibetpan/build-mac/include/libetpan "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources/armv7" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources" -F/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -MMD -MT dependencies -MF "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIMEFactory.d" --serialize-diagnostics "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIMEFactory.dia" -c /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIMEFactory.m -o "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIMEFactory.o"36"8E3FB6E2-6149-4A6D-B152-D994F430ADC0-
+
+CCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_Enumerator.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_Enumerator.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360089731.647403
+e360089731.891419
+r1
+xCompileC
+xbuild/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_Enumerator.o
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_Enumerator.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_Enumerator.me2e9a5838876b541^1d56e4838876b541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_Enumerator.m0000000000000000^3168"CompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_Enumerator.o" Source/CTMIME_Enumerator.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-generated-files.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-own-target-headers.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-all-target-headers.hmap" -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-project-headers.hmap" -I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/include -Ilibetpan/build-mac/include -Ilibetpan/build-mac/include/libetpan "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources/armv7" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources" -F/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -MMD -MT dependencies -MF "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_Enumerator.d" --serialize-diagnostics "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_Enumerator.dia" -c /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_Enumerator.m -o "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_Enumerator.o"36"3E16544E-CC21-4A83-A42E-0C865E713CD3-
+
+CCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_HtmlPart.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_HtmlPart.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360089732.271197
+e360089732.496849
+r1
+xCompileC
+xbuild/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_HtmlPart.o
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_HtmlPart.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_HtmlPart.m56d345848876b541^83307f848876b541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_HtmlPart.m0000000000000000^3156"CompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_HtmlPart.o" Source/CTMIME_HtmlPart.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-generated-files.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-own-target-headers.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-all-target-headers.hmap" -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-project-headers.hmap" -I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/include -Ilibetpan/build-mac/include -Ilibetpan/build-mac/include/libetpan "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources/armv7" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources" -F/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -MMD -MT dependencies -MF "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_HtmlPart.d" --serialize-diagnostics "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_HtmlPart.dia" -c /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_HtmlPart.m -o "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_HtmlPart.o"36"668B8E6C-61E4-48B3-846F-81C13468F193-
+
+CCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_MessagePart.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_MessagePart.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360089731.305312
+e360089731.634081
+r1
+xCompileC
+xbuild/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_MessagePart.o
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_MessagePart.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_MessagePart.me7544e838876b541^0e68a5838876b541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_MessagePart.m0000000000000000^3174"CompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_MessagePart.o" Source/CTMIME_MessagePart.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-generated-files.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-own-target-headers.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-all-target-headers.hmap" -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-project-headers.hmap" -I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/include -Ilibetpan/build-mac/include -Ilibetpan/build-mac/include/libetpan "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources/armv7" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources" -F/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -MMD -MT dependencies -MF "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_MessagePart.d" --serialize-diagnostics "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_MessagePart.dia" -c /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_MessagePart.m -o "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_MessagePart.o"36"6C801DD4-BE97-4F57-AEA1-DF5C7146C290-
+
+CCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_MultiPart.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_MultiPart.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360089731.307390
+e360089731.614313
+r1
+xCompileC
+xbuild/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_MultiPart.o
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_MultiPart.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_MultiPart.mdfe14e838876b541^28439d838876b541^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_MultiPart.m0000000000000000^3162"CompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_MultiPart.o" Source/CTMIME_MultiPart.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-generated-files.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-own-target-headers.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-all-target-headers.hmap" -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-project-headers.hmap" -I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/include -Ilibetpan/build-mac/include -Ilibetpan/build-mac/include/libetpan "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources/armv7" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources" -F/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -MMD -MT dependencies -MF "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_MultiPart.d" --serialize-diagnostics "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_MultiPart.dia" -c /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_MultiPart.m -o "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_MultiPart.o"36"D2014A8E-4E17-4C8B-909A-774B15520BBC-
+
+CCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_SinglePart.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_SinglePart.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360089731.317848
+e360089731.676491
+r1
+xCompileC
+xbuild/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_SinglePart.o
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_SinglePart.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_SinglePart.m:106:4: warning: implicit declaration of function 'RaiseException' is invalid in C99 [-Wimplicit-function-declaration]
+o                        RaiseException(CTMIMEParseError, CTMIMEParseErrorDesc);
+o                        ^
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_SinglePart.m:128:30: warning: unused variable 'encoding' [-Wunused-variable]
+o        struct mailmime_mechanism * encoding;
+o                                    ^
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_SinglePart.m:133:35: warning: unused variable 'disposition' [-Wunused-variable]
+o    struct mailmime_disposition * disposition;
+o                                  ^
+o3 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_SinglePart.m0c8f51838876b541^ddd3ad838876b541^-775"/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_SinglePart.m:106:4: warning: implicit declaration of function 'RaiseException' is invalid in C99 [-Wimplicit-function-declaration]                        RaiseException(CTMIMEParseError, CTMIMEParseErrorDesc);                        ^/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_SinglePart.m:128:30: warning: unused variable 'encoding' [-Wunused-variable]        struct mailmime_mechanism * encoding;                                    ^/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_SinglePart.m:133:35: warning: unused variable 'disposition' [-Wunused-variable]    struct mailmime_disposition * disposition;                                  ^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@67"Implicit declaration of function 'RaiseException' is invalid in C99-360089731#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@92"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_SinglePart.m0000000000000000^105#3#105#3#3740#0#14"Semantic Issue--2@26"Unused variable 'encoding'-360089731#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@92"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_SinglePart.m0000000000000000^127#29#127#29#4435#0#19"Unused Entity Issue--2@29"Unused variable 'disposition'-360089731#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@92"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_SinglePart.m0000000000000000^132#34#132#34#4588#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@92"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_SinglePart.m0000000000000000^3168"CompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_SinglePart.o" Source/CTMIME_SinglePart.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-generated-files.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-own-target-headers.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-all-target-headers.hmap" -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-project-headers.hmap" -I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/include -Ilibetpan/build-mac/include -Ilibetpan/build-mac/include/libetpan "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources/armv7" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources" -F/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -MMD -MT dependencies -MF "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_SinglePart.d" --serialize-diagnostics "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_SinglePart.dia" -c /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_SinglePart.m -o "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_SinglePart.o"36"56EE9FC1-3CF6-44F4-AB8C-49192813CAB0-
+
+CCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_TextPart.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_TextPart.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360089731.520333
+e360089731.763831
+r1
+xCompileC
+xbuild/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_TextPart.o
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_TextPart.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_TextPart.md46185838876b541^6666c6838876b541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_TextPart.m0000000000000000^3156"CompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_TextPart.o" Source/CTMIME_TextPart.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-generated-files.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-own-target-headers.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-all-target-headers.hmap" -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-project-headers.hmap" -I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/include -Ilibetpan/build-mac/include -Ilibetpan/build-mac/include/libetpan "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources/armv7" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources" -F/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -MMD -MT dependencies -MF "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_TextPart.d" --serialize-diagnostics "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_TextPart.dia" -c /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTMIME_TextPart.m -o "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTMIME_TextPart.o"36"988D5734-1A72-4591-A015-D38EEA0B305E-
+
+CCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTP.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTP.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360089731.023655
+e360089731.305904
+r1
+xCompileC
+xbuild/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTP.o
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTP.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTP.m:50:2: warning: implicit declaration of function 'IfTrue_RaiseException' is invalid in C99 [-Wimplicit-function-declaration]
+o        IfTrue_RaiseException(ret != MAILSMTP_NO_ERROR, CTSMTPSocket, CTSMTPSocketDesc);
+o        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTP.m219506838876b541^984f4e838876b541^-310"/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTP.m:50:2: warning: implicit declaration of function 'IfTrue_RaiseException' is invalid in C99 [-Wimplicit-function-declaration]        IfTrue_RaiseException(ret != MAILSMTP_NO_ERROR, CTSMTPSocket, CTSMTPSocketDesc);        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@74"Implicit declaration of function 'IfTrue_RaiseException' is invalid in C99-360089731#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@81"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTP.m0000000000000000^49#1#49#1#2023#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@81"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTP.m0000000000000000^3102"CompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTP.o" Source/CTSMTP.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-generated-files.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-own-target-headers.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-all-target-headers.hmap" -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-project-headers.hmap" -I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/include -Ilibetpan/build-mac/include -Ilibetpan/build-mac/include/libetpan "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources/armv7" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources" -F/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -MMD -MT dependencies -MF "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTP.d" --serialize-diagnostics "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTP.dia" -c /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTP.m -o "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTP.o"36"CEF61FA2-9476-420D-AA25-576D53026D9C-
+
+CCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTPAsyncConnection.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTPAsyncConnection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360089732.237582
+e360089732.486124
+r1
+xCompileC
+xbuild/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTPAsyncConnection.o
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTPAsyncConnection.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTPAsyncConnection.md2fd3c848876b541^2a727c848876b541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTPAsyncConnection.m0000000000000000^3192"CompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTPAsyncConnection.o" Source/CTSMTPAsyncConnection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-generated-files.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-own-target-headers.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-all-target-headers.hmap" -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-project-headers.hmap" -I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/include -Ilibetpan/build-mac/include -Ilibetpan/build-mac/include/libetpan "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources/armv7" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources" -F/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -MMD -MT dependencies -MF "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTPAsyncConnection.d" --serialize-diagnostics "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTPAsyncConnection.dia" -c /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTPAsyncConnection.m -o "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTPAsyncConnection.o"36"A7C6D411-24DD-487A-8744-5CA0618A9288-
+
+CCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTPConnection.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTPConnection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360089731.023340
+e360089731.303914
+r1
+xCompileC
+xbuild/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTPConnection.o
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTPConnection.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTPConnection.m92b106838876b541^8ece4d838876b541^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTPConnection.m0000000000000000^3162"CompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTPConnection.o" Source/CTSMTPConnection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-generated-files.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-own-target-headers.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-all-target-headers.hmap" -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-project-headers.hmap" -I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/include -Ilibetpan/build-mac/include -Ilibetpan/build-mac/include/libetpan "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources/armv7" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources" -F/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -MMD -MT dependencies -MF "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTPConnection.d" --serialize-diagnostics "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTPConnection.dia" -c /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/CTSMTPConnection.m -o "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/CTSMTPConnection.o"36"F5B27BCB-EFF4-4265-9982-7EF6C12EC3EB-
+
+CCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/JRLog.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/JRLog.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360089731.022399
+e360089731.258117
+r1
+xCompileC
+xbuild/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/JRLog.o
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/JRLog.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/JRLog.m609206838876b541^e41342838876b541^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/JRLog.m0000000000000000^3096"CompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/JRLog.o" Source/JRLog.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-generated-files.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-own-target-headers.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-all-target-headers.hmap" -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-project-headers.hmap" -I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/include -Ilibetpan/build-mac/include -Ilibetpan/build-mac/include/libetpan "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources/armv7" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources" -F/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -MMD -MT dependencies -MF "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/JRLog.d" --serialize-diagnostics "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/JRLog.dia" -c /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/JRLog.m -o "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/JRLog.o"36"F0D38A48-7128-468D-8DD3-43256088E335-
+
+CCompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/MailCoreUtilities.o" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/MailCoreUtilities.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360089732.237407
+e360089732.457476
+r1
+xCompileC
+xbuild/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/MailCoreUtilities.o
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/MailCoreUtilities.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/MailCoreUtilities.mdc293d848876b541^4c1c75848876b541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/MailCoreUtilities.m0000000000000000^3168"CompileC "build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/MailCoreUtilities.o" Source/MailCoreUtilities.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-generated-files.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-own-target-headers.hmap" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-all-target-headers.hmap" -iquote "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/mailcore-project-headers.hmap" -I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/include -Ilibetpan/build-mac/include -Ilibetpan/build-mac/include/libetpan "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources/armv7" "-I/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/DerivedSources" -F/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -MMD -MT dependencies -MF "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/MailCoreUtilities.d" --serialize-diagnostics "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/MailCoreUtilities.dia" -c /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/Source/MailCoreUtilities.m -o "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/MailCoreUtilities.o"36"C5D2F8DF-D9C5-41DB-B383-DB8A4FCCC027-
+
+CLibtool /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/libmailcore.a normal armv7
+s360089732.505332
+e360089732.665698
+r1
+xLibtool
+x/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/libmailcore.a
+xnormal
+xarmv7
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/libetpan/build-mac/build/Debug-iphoneos/libetpan_ios.a(mailimap_print.o) has no symbols
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Libtool build/Debug-iphoneos/libmailcore.a normal armv7037a81848876b541^dd79aa848876b541^-240"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/libetpan/build-mac/build/Debug-iphoneos/libetpan_ios.a(mailimap_print.o) has no symbols-0#0#0#--1007"Libtool build/Debug-iphoneos/libmailcore.a normal armv7    cd /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos -filelist "/Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/MailCore.build/Debug-iphoneos/MailCore iOS.build/Objects-normal/armv7/mailcore.LinkFileList" /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/libetpan/build-mac/build/Debug-iphoneos/libetpan_ios.a -o /Volumes/MEDIAONE/Documents/Projects/iOS/MailCore/build/Debug-iphoneos/libmailcore.a36"A321B514-1AF7-4403-BC2D-094BEC38570B-
+
+CPBXCp Source/CTBareAttachment.h include/MailCore/CTBareAttachment.h
+r0
+
+CPBXCp Source/CTBareMessage.h include/MailCore/CTBareMessage.h
+r0
+
+CPBXCp Source/CTCoreAccount.h include/MailCore/CTCoreAccount.h
+r0
+
+CPBXCp Source/CTCoreAddress.h include/MailCore/CTCoreAddress.h
+r0
+
+CPBXCp Source/CTCoreAttachment.h include/MailCore/CTCoreAttachment.h
+r0
+
+CPBXCp Source/CTCoreFolder.h include/MailCore/CTCoreFolder.h
+r0
+
+CPBXCp Source/CTCoreMessage.h include/MailCore/CTCoreMessage.h
+r0
+
+CPBXCp Source/CTESMTP.h include/MailCore/CTESMTP.h
+r0
+
+CPBXCp Source/CTMIME.h include/MailCore/CTMIME.h
+r0
+
+CPBXCp Source/CTMIMEFactory.h include/MailCore/CTMIMEFactory.h
+r0
+
+CPBXCp Source/CTMIME_Enumerator.h include/MailCore/CTMIME_Enumerator.h
+r0
+
+CPBXCp Source/CTMIME_HtmlPart.h include/MailCore/CTMIME_HtmlPart.h
+r0
+
+CPBXCp Source/CTMIME_MessagePart.h include/MailCore/CTMIME_MessagePart.h
+r0
+
+CPBXCp Source/CTMIME_MultiPart.h include/MailCore/CTMIME_MultiPart.h
+r0
+
+CPBXCp Source/CTMIME_SinglePart.h include/MailCore/CTMIME_SinglePart.h
+r0
+
+CPBXCp Source/CTMIME_TextPart.h include/MailCore/CTMIME_TextPart.h
+r0
+
+CPBXCp Source/CTSMTP.h include/MailCore/CTSMTP.h
+r0
+
+CPBXCp Source/CTSMTPAsyncConnection.h include/MailCore/CTSMTPAsyncConnection.h
+r0
+
+CPBXCp Source/CTSMTPConnection.h include/MailCore/CTSMTPConnection.h
+r0
+
+CPBXCp Source/JRLog.h include/MailCore/JRLog.h
+r0
+
+CPBXCp Source/MailCore.h include/MailCore/MailCore.h
+r0
+
+CPBXCp Source/MailCoreTypes.h include/MailCore/MailCoreTypes.h
+r0
+
+CPBXCp Source/MailCoreUtilities.h include/MailCore/MailCoreUtilities.h
+r0
+
